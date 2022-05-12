@@ -1,4 +1,4 @@
-import 'dorenv/config';
+import 'dotenv/config';
 
 export default {
   "expo": {
@@ -30,7 +30,7 @@ export default {
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "firebase": {
+    "extra": {
       apiKey: process.env.API_KEY,
       authDomain: process.env.AUTH_DOMAIN,
       projectId: process.env.PROJECT_ID,
